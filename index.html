@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AMAN STUDIO | Fine Art, Editorial & Luxury Destination Photography</title>
+  <meta name="description" content="Portfolio of Aman — Award-winning photographer specializing in high-fashion editorial, intimate portraits, and timeless luxury destination weddings worldwide.">
+  <meta name="keywords" content="Aman Photography, Aman Studio, editorial photographer, luxury wedding photographer, portrait photographer, medium format, Hasselblad, Leica, fashion photographer 2026">
+  <meta name="author" content="Aman Studio">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/jpeg" href="assets/images/logo.jpg">
+  
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <!-- Ambient Texture & Glow Spotlights -->
+  <div class="bg-ambient-noise" aria-hidden="true"></div>
+  <div class="bg-glow-spot" style="top: -150px; left: 15%;" aria-hidden="true"></div>
+  <div class="bg-glow-spot" style="top: 40%; right: 10%;" aria-hidden="true"></div>
+
+  <!-- Custom Magnetic Cursor (Desktop) -->
+  <div class="custom-cursor" aria-hidden="true">
+    <span class="cursor-text"></span>
+  </div>
+  <div class="cursor-follower" aria-hidden="true"></div>
+
+  <!-- ==========================================================================
+       Header & Navigation
+       ========================================================================== -->
+  <header class="site-header" id="siteHeader">
+    <div class="container nav-container">
+      <a href="#hero" class="brand-wrapper" aria-label="Aman Studio Home">
+        <img src="assets/images/logo.jpg" alt="Aman Studio Emblem" class="brand-logo-img">
+        <div class="brand-text">
+          <span class="brand-title">Aman Studio</span>
+          <span class="brand-subtitle">Fine Art & Editorial</span>
+        </div>
+      </a>
+
+      <!-- Desktop Navigation Menu -->
+      <nav class="desktop-nav" aria-label="Main Navigation">
+        <ul class="nav-menu">
+          <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+          <li><a href="#case-studies" class="nav-link">Case Studies</a></li>
+          <li><a href="#retouching" class="nav-link">Color & Retouching</a></li>
+          <li><a href="#about" class="nav-link">Vision</a></li>
+          <li><a href="#arsenal" class="nav-link">Gear</a></li>
+          <li><a href="#services" class="nav-link">Investment</a></li>
+          <li><a href="#booking" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Nav Actions (Audio Toggle + Booking CTA) -->
+      <div class="nav-actions">
+        <button id="audioToggleBtn" class="audio-toggle-btn playing" title="Toggle Mechanical Camera Shutter SFX" aria-label="Toggle camera sound effects">
+          <div class="audio-icon-waves">
+            <span class="audio-bar"></span>
+            <span class="audio-bar"></span>
+            <span class="audio-bar"></span>
+          </div>
+          <span id="audioToggleLabel">SFX: ON</span>
+        </button>
+
+        <a href="#booking" class="btn-primary" style="padding: 0.6rem 1.4rem; font-size: 0.76rem;">
+          Inquire Date
+        </a>
+
+        <!-- Mobile Menu Hamburger Trigger -->
+        <button class="mobile-menu-trigger" id="mobileMenuTrigger" aria-label="Toggle Menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer Menu -->
+  <div class="mobile-drawer" id="mobileDrawer">
+    <ul class="mobile-nav-links">
+      <li><a href="#portfolio">Selected Works</a></li>
+      <li><a href="#case-studies">Case Studies</a></li>
+      <li><a href="#retouching">Color Grading</a></li>
+      <li><a href="#about">The Visionary</a></li>
+      <li><a href="#arsenal">The Arsenal</a></li>
+      <li><a href="#services">Services & Pricing</a></li>
+      <li><a href="#booking">Book a Session</a></li>
+    </ul>
+    <div style="margin-top: 3rem;">
+      <a href="#booking" class="btn-primary" style="padding: 0.9rem 2.2rem;">Start A Project</a>
+    </div>
+  </div>
+
+  <main>
+    <!-- ==========================================================================
+         Hero Section
+         ========================================================================== -->
+    <section class="hero-section" id="hero">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <div class="hero-badge-pill">
+            <span class="hero-badge-dot"></span>
+            <span>2026 World Press Photo Finalist • Global Commissions</span>
+          </div>
+          <h1 class="hero-title">
+            Capturing the <span class="italic-emphasis">unspoken elegance</span> of time & human emotion.
+          </h1>
+          <p class="hero-description">
+            Aman Studio is a premier visual atelier specializing in high-fashion editorial, intimate portraits, and timeless luxury destination weddings captured across the world’s most cinematic landscapes.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#portfolio" class="btn-primary">
+              <span>Explore Selected Works</span>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+            </a>
+            <a href="#booking" class="btn-secondary">
+              <span>Commission A Shoot</span>
+            </a>
+          </div>
+
+          <div class="hero-metrics-strip">
+            <div class="metric-item">
+              <span class="metric-num">12<span>+</span></span>
+              <span class="metric-label">Years of Craft</span>
+            </div>
+            <div class="metric-item">
+              <span class="metric-num">480<span>+</span></span>
+              <span class="metric-label">Stories Captured</span>
+            </div>
+            <div class="metric-item">
+              <span class="metric-num">24</span>
+              <span class="metric-label">Global Awards</span>
+            </div>
+            <div class="metric-item">
+              <span class="metric-num">32</span>
+              <span class="metric-label">Countries Traveled</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero Visual Showcase Card with Parallax Depth -->
+        <div class="hero-visual-card">
+          <div class="hero-img-wrapper">
+            <img src="https://images.unsplash.com/photo-1509631179647-0177331693ae?q=80&w=1200&auto=format&fit=crop" alt="High Fashion Nocturne by Aman" id="heroVisualImg">
+          </div>
+          
+          <button class="hero-floating-shutter-btn" id="heroShutterBtn" title="Simulate Shutter Click" aria-label="Trigger shutter audio">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="3"/></svg>
+          </button>
+
+          <div class="hero-exif-floating-tag">
+            <div class="hero-tag-header">
+              <span class="hero-tag-title">Chiaroscuro Nocturne</span>
+              <span class="hero-tag-badge">Vogue Cover</span>
+            </div>
+            <div class="hero-tag-exif">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#c5a059" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="2" x2="12" y2="6"/><line x1="12" y1="18" x2="12" y2="22"/><line x1="2" y1="12" x2="6" y2="12"/><line x1="18" y1="12" x2="22" y2="12"/></svg>
+              <span>Hasselblad X2D 100C • XCD 55mm f/2.5 • 1/250s f/2.8 ISO 64</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         Portfolio Gallery Section
+         ========================================================================== -->
+    <section class="section-padding" id="portfolio">
+      <div class="container">
+        <div class="section-head">
+          <span class="section-eyebrow">Curated Works</span>
+          <h2 class="section-heading">Visual Poems of Light, Shadow & Form</h2>
+          <p class="section-subtext">
+            Each frame is an unhurried meditation on human beauty, architectural geometry, and raw emotional resonance, crafted with medium format fidelity.
+          </p>
+        </div>
+
+        <!-- Filter Categories -->
+        <div class="filter-container">
+          <button class="filter-btn active" data-filter="all">
+            All Works <span class="filter-count"></span>
+          </button>
+          <button class="filter-btn" data-filter="editorial">
+            Editorial & Fashion <span class="filter-count"></span>
+          </button>
+          <button class="filter-btn" data-filter="portraits">
+            Portraits & People <span class="filter-count"></span>
+          </button>
+          <button class="filter-btn" data-filter="weddings">
+            Luxury Destination Weddings <span class="filter-count"></span>
+          </button>
+          <button class="filter-btn" data-filter="architecture">
+            Architecture & Spaces <span class="filter-count"></span>
+          </button>
+          <button class="filter-btn" data-filter="street">
+            Street & Documentary <span class="filter-count"></span>
+          </button>
+        </div>
+
+        <!-- Gallery Grid -->
+        <div class="gallery-grid" id="galleryGrid">
+          <!-- Dynamically populated from data.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         Interactive Retouching & Color Grading Slider
+         ========================================================================== -->
+    <section class="section-padding retouch-section" id="retouching">
+      <div class="container">
+        <div class="section-head">
+          <span class="section-eyebrow">The Craft Behind The Grade</span>
+          <h2 class="section-heading">RAW Precision vs. Signature Film Tone</h2>
+          <p class="section-subtext">
+            Drag the divider to explore how uncompressed 16-bit sensor data is sculpted into Aman Studio’s signature cinematic color profile, honoring natural skin textures and nostalgic film curve roll-off.
+          </p>
+        </div>
+
+        <div class="slider-comparison-box" id="beforeAfterContainer">
+          <!-- After Layer (Graded) -->
+          <div class="slider-img-layer after">
+            <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=1600&auto=format&fit=crop" alt="Finished Signature Grade">
+          </div>
+
+          <!-- Before Layer (RAW Capture) -->
+          <div class="slider-img-layer before" id="beforeLayer">
+            <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=1600&auto=format&fit=crop" alt="RAW Unprocessed Capture">
+          </div>
+
+          <!-- Draggable Slider Handle -->
+          <div class="slider-handle-line" id="sliderHandle">
+            <div class="slider-handle-button">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="15 18 9 12 15 6"/><polyline points="9 18 3 12 9 6"/></svg>
+            </div>
+          </div>
+
+          <span class="slider-label before-label">RAW Sensor Capture</span>
+          <span class="slider-label after-label">Aman Studio Signature Grade</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         Featured Case Studies
+         ========================================================================== -->
+    <section class="section-padding" id="case-studies">
+      <div class="container">
+        <div class="section-head">
+          <span class="section-eyebrow">Behind The Assignments</span>
+          <h2 class="section-heading">Editorial & Destination Case Studies</h2>
+          <p class="section-subtext">
+            Deep dives into our most prestigious commercial commissions and multi-day private celebrations across Europe and Asia.
+          </p>
+        </div>
+
+        <div class="case-studies-container" id="caseStudiesList">
+          <!-- Dynamically populated from data.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         About & Visionary Philosophy
+         ========================================================================== -->
+    <section class="section-padding" id="about">
+      <div class="container about-grid">
+        <div class="about-portrait-frame">
+          <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=1200&auto=format&fit=crop" alt="Aman behind his camera">
+        </div>
+
+        <div class="about-narrative">
+          <span class="section-eyebrow">The Visionary</span>
+          <h2 class="section-heading" style="font-size: 2.8rem;">Aman</h2>
+          
+          <div class="about-quote-box">
+            <p class="about-quote-text">
+              "Light is not merely illumination; it is the ink with which we carve human vulnerability into eternity."
+            </p>
+          </div>
+
+          <p style="color: var(--text-secondary); line-height: 1.8; margin-bottom: 1.5rem;">
+            Born with an obsessive curiosity for the ephemeral, Aman began his photographic journey documenting the contrast between historic architecture and modern human solitude. Today, his works bridge the gap between classical chiaroscuro portraiture and hyper-contemporary high-fashion aesthetics.
+          </p>
+
+          <p style="color: var(--text-secondary); line-height: 1.8;">
+            Operating between studios in London, Mumbai, and New York, Aman accepts a strictly limited number of commercial campaigns and luxury destination weddings each year to ensure uncompromising artisanal dedication to each project.
+          </p>
+
+          <!-- Awards List -->
+          <div class="awards-list" id="awardsList">
+            <!-- Dynamically populated from data.js -->
+          </div>
+
+          <div class="about-signature-wrapper">
+            <span class="signature-script">Aman</span>
+            <span class="signature-stamp">Master of Fine Art Photography<br>Studio Principal</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         Camera Arsenal & Gear Kit
+         ========================================================================== -->
+    <section class="section-padding" style="background-color: var(--bg-secondary); border-top: 1px solid var(--border-subtle);" id="arsenal">
+      <div class="container">
+        <div class="section-head">
+          <span class="section-eyebrow">The Arsenal</span>
+          <h2 class="section-heading">Instruments of Precision & Soul</h2>
+          <p class="section-subtext">
+            We exclusively deploy the highest echelon of medium format digital backs and prime optics to ensure our images endure as museum-grade heirlooms for generations.
+          </p>
+        </div>
+
+        <div class="gear-grid" id="gearKitGrid">
+          <!-- Dynamically populated from data.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         Investment & Services
+         ========================================================================== -->
+    <section class="section-padding" id="services">
+      <div class="container">
+        <div class="section-head">
+          <span class="section-eyebrow">Investment & Offerings</span>
+          <h2 class="section-heading">Tailored Creative Commissions</h2>
+          <p class="section-subtext">
+            Transparent packages designed for international fashion houses, luxury lifestyle brands, and private collectors. Custom itineraries upon request.
+          </p>
+        </div>
+
+        <div class="services-grid" id="servicesGrid">
+          <!-- Dynamically populated from data.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         Client Testimonials & Press
+         ========================================================================== -->
+    <section class="section-padding" style="background: var(--bg-secondary); border-top: 1px solid var(--border-subtle);" id="testimonials">
+      <div class="container">
+        <div class="section-head">
+          <span class="section-eyebrow">Client Words</span>
+          <h2 class="section-heading">Critical Acclaim & Endorsements</h2>
+          <p class="section-subtext">
+            Reflections from art directors, architectural curators, and discerning private couples who entrusted their most sacred moments to our lens.
+          </p>
+        </div>
+
+        <div class="testimonials-grid" id="testimonialsGrid">
+          <!-- Dynamically populated from data.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         Consultation & Booking Form
+         ========================================================================== -->
+    <section class="section-padding booking-section" id="booking">
+      <div class="container">
+        <div class="section-head">
+          <span class="section-eyebrow">Begin The Dialogue</span>
+          <h2 class="section-heading">Inquire For 2026 / 2027 Commissions</h2>
+          <p class="section-subtext">
+            Due to our uncompromising dedication to detail, Aman Studio accepts only 16 wedding celebrations and 24 editorial assignments per calendar year. Please provide your dates and vision below.
+          </p>
+        </div>
+
+        <div class="booking-form-box">
+          <form id="bookingForm">
+            <div class="form-grid">
+              <div class="form-group">
+                <label for="clientName" class="form-label">Full Name *</label>
+                <input type="text" id="clientName" class="form-input" placeholder="e.g. Eleanor Vance" required>
+              </div>
+
+              <div class="form-group">
+                <label for="clientEmail" class="form-label">Email Address *</label>
+                <input type="email" id="clientEmail" class="form-input" placeholder="e.g. eleanor@vogue.co.uk" required>
+              </div>
+
+              <div class="form-group">
+                <label for="clientPhone" class="form-label">Phone / WhatsApp</label>
+                <input type="tel" id="clientPhone" class="form-input" placeholder="+1 (555) 000-0000">
+              </div>
+
+              <div class="form-group">
+                <label for="shootType" class="form-label">Project Type *</label>
+                <select id="shootType" class="form-select" required>
+                  <option value="" disabled selected>Select shoot category</option>
+                  <option value="Editorial & Fashion Campaign">Editorial & Fashion Campaign</option>
+                  <option value="Luxury Destination Wedding">Luxury Destination Wedding</option>
+                  <option value="Fine Art Portraiture">Fine Art Portraiture Commission</option>
+                  <option value="Architecture & Interior Space">Architecture & Interior Space</option>
+                  <option value="Commercial & Brand Story">Commercial & Brand Story</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="shootDate" class="form-label">Estimated Date / Season</label>
+                <input type="text" id="shootDate" class="form-input" placeholder="e.g. October 2026 or Autumn Season">
+              </div>
+
+              <div class="form-group">
+                <label for="shootLocation" class="form-label">Shoot Destination / City</label>
+                <input type="text" id="shootLocation" class="form-input" placeholder="e.g. Lake Como, Italy or Studio London">
+              </div>
+
+              <div class="form-group full-width">
+                <label for="shootBudget" class="form-label">Estimated Investment Budget</label>
+                <select id="shootBudget" class="form-select">
+                  <option value="$2,500 – $5,000">$2,500 – $5,000 USD</option>
+                  <option value="$5,000 – $10,000" selected>$5,000 – $10,000 USD</option>
+                  <option value="$10,000 – $20,000">$10,000 – $20,000 USD</option>
+                  <option value="$20,000+">$20,000+ USD (Comprehensive Worldwide Production)</option>
+                </select>
+              </div>
+
+              <div class="form-group full-width">
+                <label for="shootDetails" class="form-label">Creative Brief & Vision *</label>
+                <textarea id="shootDetails" class="form-textarea" placeholder="Tell us about the atmosphere, mood, schedule, and aesthetic goals you wish to achieve..." required></textarea>
+              </div>
+            </div>
+
+            <div style="text-align: center;">
+              <button type="submit" class="btn-primary" style="padding: 1rem 3rem; font-size: 0.88rem;">
+                Submit Commission Request
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==========================================================================
+       Fullscreen Interactive Lightbox Modal
+       ========================================================================== -->
+  <div class="lightbox-modal" id="lightboxModal" role="dialog" aria-modal="true" aria-label="Image Preview">
+    <button class="lightbox-close-btn" id="lightboxCloseBtn" aria-label="Close Preview">&times;</button>
+    <button class="lightbox-nav-btn prev" id="lightboxPrevBtn" aria-label="Previous Photo">&#10094;</button>
+    <button class="lightbox-nav-btn next" id="lightboxNextBtn" aria-label="Next Photo">&#10095;</button>
+
+    <div class="lightbox-container">
+      <div class="lightbox-img-pane">
+        <img id="lightboxImg" src="" alt="Portfolio Fullscreen Preview">
+      </div>
+
+      <div class="lightbox-info-pane">
+        <span class="lightbox-category" id="lightboxCategory">Editorial & Fashion</span>
+        <h2 class="lightbox-title" id="lightboxTitle">Chiaroscuro Nocturne</h2>
+        <p class="lightbox-subtitle" id="lightboxSubtitle">Haute Couture Autumn Campaign</p>
+        <p class="lightbox-desc" id="lightboxDesc">Detailed narrative regarding photographic technique, lighting balance, and visual mood.</p>
+
+        <div class="exif-details-table">
+          <div class="exif-row">
+            <span class="exif-label">Camera Body</span>
+            <span class="exif-value" id="lightboxExifCamera">Hasselblad X2D 100C</span>
+          </div>
+          <div class="exif-row">
+            <span class="exif-label">Optic / Lens</span>
+            <span class="exif-value" id="lightboxExifLens">XCD 55mm f/2.5 V</span>
+          </div>
+          <div class="exif-row">
+            <span class="exif-label">Exposure Settings</span>
+            <span class="exif-value" id="lightboxExifSettings">f/2.8 • 1/250s • ISO 64</span>
+          </div>
+          <div class="exif-row">
+            <span class="exif-label">Location & Year</span>
+            <span class="exif-value" id="lightboxExifLocation">Paris, France (2026)</span>
+          </div>
+          <div class="exif-row">
+            <span class="exif-label">Client / Publication</span>
+            <span class="exif-value" id="lightboxExifClient">Vogue Scandinavia</span>
+          </div>
+        </div>
+
+        <div style="margin-top: 2rem;">
+          <a href="#booking" onclick="closeLightbox()" class="btn-primary" style="width: 100%; text-align: center;">
+            Inquire About Similar Look
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==========================================================================
+       Site Footer
+       ========================================================================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top-grid">
+        <div class="footer-brand-col">
+          <img src="assets/images/logo.jpg" alt="Aman Studio Emblem" class="footer-brand-logo">
+          <h3 style="font-family: var(--font-serif); font-size: 1.5rem; color: var(--text-primary); margin-bottom: 0.25rem;">Aman Studio</h3>
+          <p class="footer-tagline">"Capturing Eternity in a 250th of a Second."</p>
+          <p style="color: var(--text-muted); font-size: 0.82rem; line-height: 1.6; max-width: 320px;">
+            A premier international photography atelier based in London, Mumbai, and New York. Available for editorial, commercial, and wedding commissions worldwide.
+          </p>
+        </div>
+
+        <div class="footer-col">
+          <h4 class="footer-col-title">Studio Ateliers</h4>
+          <ul class="footer-links">
+            <li><strong>London:</strong> 14 Berkeley Square, Mayfair</li>
+            <li><strong>Mumbai:</strong> Pali Hill, Bandra West</li>
+            <li><strong>New York:</strong> 42 Crosby St, SoHo</li>
+            <li style="margin-top: 0.5rem; color: var(--accent-gold);">contact@amanstudio.art</li>
+            <li>+1 (555) 839-2026</li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4 class="footer-col-title">Navigation</h4>
+          <ul class="footer-links">
+            <li><a href="#portfolio">Selected Works</a></li>
+            <li><a href="#case-studies">Case Studies</a></li>
+            <li><a href="#retouching">Color Grading</a></li>
+            <li><a href="#about">The Visionary</a></li>
+            <li><a href="#arsenal">The Arsenal (Gear)</a></li>
+            <li><a href="#services">Investment & Pricing</a></li>
+            <li><a href="#booking">Book A Consultation</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4 class="footer-col-title">The Darkroom Dispatch</h4>
+          <p style="color: var(--text-muted); font-size: 0.82rem; margin-bottom: 1rem;">
+            Quarterly visual essays, behind-the-scenes lighting diagrams, and limited edition print release announcements.
+          </p>
+          <form id="newsletterForm" class="newsletter-form">
+            <input type="email" placeholder="Your email address" class="newsletter-input" required>
+            <button type="submit" class="btn-primary" style="padding: 0.75rem 1.25rem; font-size: 0.75rem;">Join</button>
+          </form>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          &copy; 2026 AMAN STUDIO. All rights reserved. Fine Art & Editorial Photography Atelier.
+        </div>
+        <div style="display: flex; gap: 1.5rem;">
+          <a href="#hero" class="back-to-top-btn">
+            <span>Back to top</span>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m18 15-6-6-6 6"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
